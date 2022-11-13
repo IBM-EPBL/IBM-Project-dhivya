@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Imprint MT Shadow";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow:  0 0 6px rgba(227, 208, 90, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background-color: rgb(223, 223, 223);
+  outline: 1px solid rgb(127, 101, 7);
+}
+
+input{
+  font-size:20px !important;
+  color:black !important;
+  font-family:"Imprint MT Shadow" !important;
+}
