@@ -1,0 +1,28 @@
+.home {
+  width: 100vh;
+  height: 100vh;
+}
+video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  opacity: 0.4;
+  z-index: -1;
+  position:fixed;
+}
+
+.content {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+}
+.welcome-items{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    color:rgb(245, 240, 240);
+    height: 100vh;
+}
+
